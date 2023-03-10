@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 ;
+}
+body{
+  font-family: sans-serif;
+  background: #322d2d;
+}
+
+.container{
+    width: 500px;
+    margin-inline: auto;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block-start:20px ;
+  color: white;
+  font-size: 20px;
+}
+header>:first-child{
+  letter-spacing: 6px;
+  font-weight: 900;
+  font-size: 2.2em;
+}
+header span{
+  color: rgb(0, 248, 0);
+}

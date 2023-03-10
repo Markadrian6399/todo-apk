@@ -1,0 +1,48 @@
+.contaner{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.contaner input{
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(10, 255, 10);
+    color: #ffff;
+    font-size: 20px;
+    padding: 6px 10px;
+}
+
+.contaner :nth-child(2) {
+    background: rgb(10, 255, 10);
+    padding: 12px 12px;
+    color: #ffff;
+    font-size: 10px;
+    border: none;
+    
+}
+.contaner :nth-child(3) {
+    background: rgb(255, 0, 0);
+    padding: 6px 12px;
+    color: #ffff;
+    font-size: 10px;
+    border: none;
+}
+
+.completed{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background: #ffff;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.editable{
+    border: solid 3px cornflowerblue !important;
+}
